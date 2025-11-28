@@ -25,3 +25,13 @@ ncdu /path/to/directory
 ```bash
 sudo apt install ncdu
 ```
+
+## 查找文件位置
+
+### 根据命令名称查找
+
+用 `which` 可以查找某个命令的可执行文件位置：
+
+```bash
+which python3
+```
