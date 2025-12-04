@@ -20,15 +20,31 @@ from openai import OpenAI
 client = OpenAI(
     api_key="your-api-key",
     base_url="https://api.openai.com/v1",  # 可选，默认为 OpenAI 官方地址
-    default_headers={ # 可选，设置默认的额外 headers
+    default_headers={  # 可选，设置默认的额外 headers
        "HTTP-Referer": "<YOUR_SITE_URL>"
-    }
+    },
 )
 ```
 
 ## 调用 API
 
 ```python
+json_schema = {
+    "name": "example_schema",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "reply": {
+                "type": "string",
+                "description": "The assistant's reply to the user.",
+            },
+        },
+        "required": ["reply"],
+        "additionalProperties": False,
+    },
+}
+
 response = client.chat.completions.create(
     model="gpt-4o",
     messages=[
@@ -38,21 +54,15 @@ response = client.chat.completions.create(
         # {"role": "assistant", "content": "Previous assistant response."},
         # {"role": "user", "content": "Follow-up user question."},
     ],
-    temperature=0.7, # 可选
-    max_tokens=150, # 可选
-    extra_headers={ # 可选，设置本次请求的额外 headers
+    temperature=0.7,  # 可选
+    max_tokens=150,  # 可选
+    extra_headers={  # 可选，设置本次请求的额外 headers
        "X-Custom-Header": "CustomValue"
     },
-    response_format={ # 可选，指定返回格式
+    response_format={  # 可选，指定返回格式
         "type": "json_schema",
-        "json_schema": {
-            "type": "object",
-            "properties": {
-                "reply": {"type": "string"},
-            },
-            "required": ["reply"],
-        },
-    }
+        "json_schema": json_schema,
+    },
 )
 
 text = response.choices[0].message.content
