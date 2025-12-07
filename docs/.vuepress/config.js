@@ -8,7 +8,7 @@ export default defineUserConfig({
   lang: "zh-CN",
 
   title: "shi0rik0 的博客",
-  description: "shi0rik0 的博客",
+  description: "分享关于编程技术和个人兴趣的文章",
 
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png",
@@ -16,20 +16,16 @@ export default defineUserConfig({
     navbar: [
       "/",
       {
-        text: "Article",
+        text: "所有文章",
         link: "/article/",
       },
       {
-        text: "Category",
+        text: "按类别浏览",
         link: "/category/",
       },
       {
-        text: "Tag",
+        text: "按标签浏览",
         link: "/tag/",
-      },
-      {
-        text: "Timeline",
-        link: "/timeline/",
       },
     ],
   }),

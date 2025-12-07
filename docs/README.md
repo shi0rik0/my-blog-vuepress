@@ -1,6 +1,6 @@
 ---
 home: true
-title: Home
+title: 主页
 heroImage: https://vuejs.press/images/hero.png
 actions:
   - text: Get Started
@@ -25,7 +25,7 @@ features:
   - title: Bundlers
     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: Copyright © 2020-2025 shi0rik0
 ---
 
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
