@@ -1,4 +1,5 @@
 import { blogPlugin } from "@vuepress/plugin-blog"
+import { slimsearchPlugin } from "@vuepress/plugin-slimsearch"
 import { defaultTheme } from "@vuepress/theme-default"
 import { defineUserConfig } from "vuepress"
 import { viteBundler } from "@vuepress/bundler-vite"
@@ -34,6 +35,8 @@ export default defineUserConfig({
   }),
 
   plugins: [
+    slimsearchPlugin({}),
+
     blogPlugin({
       // Only files under posts are articles
       filter: ({ filePathRelative }) =>
