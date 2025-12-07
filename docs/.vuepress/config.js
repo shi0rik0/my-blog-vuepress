@@ -11,7 +11,7 @@ export default defineUserConfig({
   description: "分享关于编程技术和个人兴趣的文章",
 
   theme: defaultTheme({
-    logo: "https://vuejs.press/images/hero.png",
+    logo: "/hero.webp",
 
     navbar: [
       "/",
