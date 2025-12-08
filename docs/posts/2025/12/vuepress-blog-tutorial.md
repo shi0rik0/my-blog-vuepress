@@ -45,10 +45,10 @@ export default defineUserConfig({
 
 默认情况下，`slimsearch` 插件对于中文的支持不佳，我们可以用 `jieba` 分词库来改善搜索效果。
 
-用下面的命令安装 `nodejs-jieba`。这里我们使用 `-D` 指定为开发依赖，因为它只用于构建阶段。
+用下面的命令安装 `nodejs-jieba`。这里千万不要用 `-D`，因为这个依赖需要在浏览器中使用。
 
 ```bash
-npm i -D nodejs-jieba
+npm i nodejs-jieba
 ```
 
 然后调整配置：
