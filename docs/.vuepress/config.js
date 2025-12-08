@@ -2,6 +2,7 @@ import { blogPlugin } from "@vuepress/plugin-blog"
 import { slimsearchPlugin } from "@vuepress/plugin-slimsearch"
 import { defaultTheme } from "@vuepress/theme-default"
 import { defineUserConfig } from "vuepress"
+import { cut } from "nodejs-jieba"
 import { viteBundler } from "@vuepress/bundler-vite"
 
 export default defineUserConfig({
@@ -43,7 +44,12 @@ export default defineUserConfig({
   ],
 
   plugins: [
-    slimsearchPlugin({}),
+    slimsearchPlugin({
+      indexOptions: {
+        tokenize: (text, fieldName) =>
+          fieldName === "id" ? [text] : cut(text, true),
+      },
+    }),
 
     blogPlugin({
       // Only files under posts are articles
