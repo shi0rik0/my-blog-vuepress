@@ -43,6 +43,12 @@ export default defineUserConfig({
     ],
   ],
 
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
+
   plugins: [
     slimsearchPlugin({
       indexOptions: {
