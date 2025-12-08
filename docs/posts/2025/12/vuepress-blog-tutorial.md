@@ -69,3 +69,18 @@ export default defineUserConfig({
   ],
 })
 ```
+
+### Bug
+
+我写这篇文章的时候，最新版本的 `slimsearch` 插件（v2.0.0-rc.120）有一个 bug，会导致构建失败。解决办法是在 `.vuepress/config.js` 中设置 `locales.xxx.lang` 选项：
+
+```js
+export default defineUserConfig({
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
+  // ...
+})
+```
