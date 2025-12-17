@@ -33,6 +33,9 @@ def create_new_article():
         print(f"文件 {article_path} 已存在。")
         sys.exit(1)
     with article_path.open("w", encoding="utf-8") as f:
+        f.write("---\n")
+        f.write(f"date: {now.strftime('%Y-%m-%d')}\n")
+        f.write("---\n\n")
         f.write(f"# {filename}\n\n")
     print(f"已创建新文章: {article_path}")
     subprocess.run(["code", str(article_path)], shell=True)
