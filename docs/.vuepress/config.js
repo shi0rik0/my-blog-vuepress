@@ -32,6 +32,10 @@ export default defineUserConfig({
         text: "Ubuntu 实用脚本",
         link: "https://gist.github.com/shi0rik0/df5d365ba0ddb60d1dc8bc888c174c5b",
       },
+      {
+        text: "Next.js 配置脚本",
+        link: "https://gist.github.com/shi0rik0/9c660d9724933ca54c066350baae34e3",
+      },
     ],
   }),
 
