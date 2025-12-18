@@ -1,5 +1,6 @@
 import { blogPlugin } from "@vuepress/plugin-blog"
 import { slimsearchPlugin } from "@vuepress/plugin-slimsearch"
+import { markdownMathPlugin } from "@vuepress/plugin-markdown-math"
 import { defaultTheme } from "@vuepress/theme-default"
 import { defineUserConfig } from "vuepress"
 import { cut } from "nodejs-jieba"
@@ -64,6 +65,8 @@ export default defineUserConfig({
           fieldName === "id" ? [text] : cut(text, true),
       },
     }),
+
+    markdownMathPlugin({}),
 
     blogPlugin({
       // Only files under posts are articles
