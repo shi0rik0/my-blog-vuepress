@@ -28,6 +28,10 @@ export default defineUserConfig({
         text: "按标签浏览",
         link: "/tag/",
       },
+      {
+        text: "Ubuntu 实用脚本",
+        link: "https://gist.github.com/shi0rik0/df5d365ba0ddb60d1dc8bc888c174c5b",
+      },
     ],
   }),
 
