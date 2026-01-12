@@ -29,3 +29,13 @@ VS Code 默认的文件浏览器缩进比较小，并且缩进提示线的颜色
   "editor.wordWrap": "on"
 }
 ```
+
+## 只格式化 Git 修改的部分
+
+为了避免污染 Git 提交信息，可以只格式化 Git 工作区中修改的部分：
+
+```json
+{
+  "editor.formatOnSaveMode": "modifications"
+}
+```
