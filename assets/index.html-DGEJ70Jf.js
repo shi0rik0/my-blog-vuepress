@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app-DPdCjDfF.js";const c={};function o(r,n){return a(),e("div")}const l=t(c,[["render",o]]),i=JSON.parse('{"path":"/tag/","title":"Tags","lang":"zh-CN","frontmatter":{"title":"Tags","sidebar":false,"blog":{"type":"category","key":"tag"},"layout":"Tag"},"git":{},"filePathRelative":null,"excerpt":""}');export{l as comp,i as data};
