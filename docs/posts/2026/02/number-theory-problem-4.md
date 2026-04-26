@@ -8,7 +8,7 @@ tag:
 
 ## 题目
 
-设 $a>1$ 为整数，$m,n\in\mathbb{Z}^+$ 且 $m$ 为奇数，则
+设 $a>1$ 为整数，$m,n\in\mathbb{Z}^+$ 且 $m$ 为奇数，请证明：
 $$(a^m-1, a^n+1) = \begin{cases} 1, & a \text{ 为偶数} \\ 2, & a \text{ 为奇数} \end{cases}$$
 
 ## 证明
