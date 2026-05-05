@@ -101,3 +101,9 @@ onMounted(async () => {
   }
 })
 </script>
+
+<style scoped>
+button {
+  margin-bottom: 1rem;
+}
+</style>
