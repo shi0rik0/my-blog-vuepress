@@ -15,6 +15,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/plugin-blog": "2.0.0-rc.120",
     "@vuepress/plugin-markdown-math": "^2.0.0-rc.121",
+    "@vuepress/plugin-register-components": "^2.0.0-rc.122",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.120",
     "@vuepress/theme-default": "2.0.0-rc.120",
     "nodejs-jieba": "^0.3.0",

@@ -1,10 +1,14 @@
 import { blogPlugin } from "@vuepress/plugin-blog"
 import { slimsearchPlugin } from "@vuepress/plugin-slimsearch"
 import { markdownMathPlugin } from "@vuepress/plugin-markdown-math"
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components"
 import { defaultTheme } from "@vuepress/theme-default"
 import { defineUserConfig } from "vuepress"
 import { cut } from "nodejs-jieba"
 import { viteBundler } from "@vuepress/bundler-vite"
+import { getDirname, path } from "vuepress/utils"
+
+const __dirname = import.meta.dirname || getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -59,6 +63,9 @@ export default defineUserConfig({
   },
 
   plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, "./components"),
+    }),
     slimsearchPlugin({
       indexOptions: {
         tokenize: (text, fieldName) =>
