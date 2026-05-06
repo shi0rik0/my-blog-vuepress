@@ -47,3 +47,29 @@ $$
 </CollapsibleContent>
 
 4. 设 $p$ 是大于 $3$ 的素数，证明：$p^2 \equiv 1 \pmod{24}$。
+
+5. 设 $p$ 是素数，$n$ 是正整数，求所有的数组 $(p, n)$，使得 $p^2 - p + 1 = n^3$。
+
+<CollapsibleContent label="提示1">
+$p(p-1) = (n-1)(n^2 + n + 1)$
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+若 $p \mid n-1$，用大小估计法。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示3">
+若 $p \mid n^2 + n + 1$，设 $n^2 + n + 1 = kp$。能否得到一个只含 $k, n$ 的关于 $n$ 的二次方程？
+</CollapsibleContent>
+
+<CollapsibleContent label="提示4">
+当 $k$ 较大时，判别式必然夹在两个完全平方数之间。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示5">
+考虑 $(k^2-3)^2$ 和 $(k^2-2)^2$。
+</CollapsibleContent>
+
+<CollapsibleContent label="答案">
+$(p, n) = (19, 7)$
+</CollapsibleContent>
