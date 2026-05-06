@@ -45,3 +45,5 @@ $$
 \left(1 + \frac{X}{n}\right)\left(1 + \frac{Y}{n}\right) \le \left(1 + \frac{XY}{n}\right)
 $$
 </CollapsibleContent>
+
+4. 设 $p$ 是大于 $3$ 的素数，证明：$p^2 \equiv 1 \pmod{24}$。
