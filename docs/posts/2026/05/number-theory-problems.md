@@ -73,3 +73,9 @@ $p(p-1) = (n-1)(n^2 + n + 1)$
 <CollapsibleContent label="答案">
 $(p, n) = (19, 7)$
 </CollapsibleContent>
+
+6. 对于任意正整数 $n$，证明：$n \mid \varphi(2^n - 1)$，其中 $\varphi(n)$ 是欧拉函数。
+
+<CollapsibleContent label="提示">
+考虑阶的性质：若 $k$ 是 mod $m$ 的阶，则 $k \mid \varphi(m)$。
+</CollapsibleContent>
