@@ -79,3 +79,13 @@ $(p, n) = (19, 7)$
 <CollapsibleContent label="提示">
 考虑阶的性质：若 $k$ 是 mod $m$ 的阶，则 $k \mid \varphi(m)$。
 </CollapsibleContent>
+
+7. $p$ 是素数，且 $p \ge 7$。证明：存在三个模 $p$ 互不相同的整数 $a, b, c$，使得 $a^b \equiv b^c \equiv c^a \pmod{p}$。
+
+<CollapsibleContent label="提示1">
+利用费马小定理来构造。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+令 $a = 4$，$b = \frac{p-1}{2}$，$c = p-1$。
+</CollapsibleContent>
