@@ -80,7 +80,7 @@ $(p, n) = (19, 7)$
 考虑阶的性质：若 $k$ 是 mod $m$ 的阶，则 $k \mid \varphi(m)$。
 </CollapsibleContent>
 
-7. $p$ 是素数，且 $p \ge 7$。证明：存在三个模 $p$ 互不相同的整数 $a, b, c$，使得 $a^b \equiv b^c \equiv c^a \pmod{p}$。
+7. 设 $p$ 是素数，且 $p \ge 7$。证明：存在三个模 $p$ 互不相同的整数 $a, b, c$，使得 $a^b \equiv b^c \equiv c^a \pmod{p}$。
 
 <CollapsibleContent label="提示1">
 利用费马小定理来构造。
@@ -99,3 +99,5 @@ $(p, n) = (19, 7)$
 <CollapsibleContent label="提示2">
 设 $P(a_n) = p$，则一定存在素数 $q > p$，满足 $v_q(2^p - 1)$ 是奇数（这里要用到阶）。然后用升幂定理分析 $v_q(2^{a_n} - 1)$。
 </CollapsibleContent>
+
+9. 设 $p$ 是素数，且 $p \ge 5$，证明：$42p \mid 3^p - 2^p - 1$。
