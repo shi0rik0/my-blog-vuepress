@@ -89,3 +89,13 @@ $(p, n) = (19, 7)$
 <CollapsibleContent label="提示2">
 令 $a = 4$，$b = \frac{p-1}{2}$，$c = p-1$。
 </CollapsibleContent>
+
+8. 设整数列 $\{a_n\}$ 满足，对于任意 $n$，都有 $a_n > 1$，且 $(2^{a_n} - 1)a_{n+1}$ 是完全平方数。证明：该数列中不存在相等的两项。
+
+<CollapsibleContent label="提示1">
+先证明若 $k > 1$，则 $a_k$ 不是完全平方数。用 $P(n)$ 表示 $n$ 的幂次是奇数的最大素因子。若 $xy$ 是完全平方数，则 $P(x) = P(y)$。能否证明 $P(a_n) < P(a_{n+1})$？
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+设 $P(a_n) = p$，则一定存在素数 $q > p$，满足 $v_q(2^p - 1)$ 是奇数（这里要用到阶）。然后用升幂定理分析 $v_q(2^{a_n} - 1)$。
+</CollapsibleContent>
