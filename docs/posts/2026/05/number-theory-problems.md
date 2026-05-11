@@ -101,3 +101,17 @@ $(p, n) = (19, 7)$
 </CollapsibleContent>
 
 9. 设 $p$ 是素数，且 $p \ge 5$，证明：$42p \mid 3^p - 2^p - 1$。
+
+10. 证明：存在无穷多正整数 $n$，使得 $[\sqrt{2}n]$ 是完全平方数。
+
+<CollapsibleContent label="提示1">
+即 $k^2 \le \sqrt{2}n < k^2 + 1$。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+我们希望 $\sqrt{n}{k^2} \approx \sqrt{2}$。考虑佩尔方程 $x^2 - 2y^2 = \pm 1$，注意到该方程的解满足 $\frac{x}{y} \approx \sqrt{2}$。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示3">
+令 $n = xy$，$k = x$。
+</CollapsibleContent>
