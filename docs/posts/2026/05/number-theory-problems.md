@@ -115,3 +115,13 @@ $(p, n) = (19, 7)$
 <CollapsibleContent label="提示3">
 令 $n = xy$，$k = x$。
 </CollapsibleContent>
+
+11. 求所有的正整数 $a, b$，使得 $2^{a!} + 2^{b!}$ 是完全立方数。
+
+<CollapsibleContent label="提示">
+对于任意正整数 $n$，$2^n + 1$ 不是完全立方数。
+</CollapsibleContent>
+
+<CollapsibleContent label="答案">
+$(a, b) = (2, 2)$。
+</CollapsibleContent>
