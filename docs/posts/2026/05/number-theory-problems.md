@@ -145,3 +145,9 @@ $n^2 = 0,1,4,9 \pmod{16}$。
 <CollapsibleContent label="提示3">
 若 $(\frac{-4}{p}) = (\frac{-8}{p}) = 1$，则 $p \equiv 1 \pmod{8}$。
 </CollapsibleContent>
+
+14. 求所有正整数 $a, b$，使得 $(a^2 + b)(a + b^2)$ 是 $2$ 的幂。
+
+<CollapsibleContent label="提示">
+设 $a^2 + b = 2^x$，$a + b^2 = 2^y$。两式相减之后，因式分解并分析奇偶性。
+</CollapsibleContent>
