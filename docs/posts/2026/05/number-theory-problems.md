@@ -151,3 +151,7 @@ $n^2 = 0,1,4,9 \pmod{16}$。
 <CollapsibleContent label="提示">
 设 $a^2 + b = 2^x$，$a + b^2 = 2^y$。两式相减之后，因式分解并分析奇偶性。
 </CollapsibleContent>
+
+<CollapsibleContent label="答案">
+$(a, b) = (1, 1)$。
+</CollapsibleContent>
