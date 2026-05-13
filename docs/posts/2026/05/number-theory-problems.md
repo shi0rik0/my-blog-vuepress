@@ -125,3 +125,9 @@ $(p, n) = (19, 7)$
 <CollapsibleContent label="答案">
 $(a, b) = (2, 2)$。
 </CollapsibleContent>
+
+12. $a, b$ 是大于 $1$ 的整数，$b^2 \mid a^3$，$a-1 \mid b-1$。证明：$a = b$。
+
+<CollapsibleContent label="提示">
+设 $a^3 = b^2 k$，然后 mod $(a-1)$ 分析。
+</CollapsibleContent>
