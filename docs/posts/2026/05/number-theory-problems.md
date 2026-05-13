@@ -131,3 +131,17 @@ $(a, b) = (2, 2)$。
 <CollapsibleContent label="提示">
 设 $a^3 = b^2 k$，然后 mod $(a-1)$ 分析。
 </CollapsibleContent>
+
+13. 证明方程 $x^2 + y^2 - z^2 = xyz - 2$ 没有整数解。
+
+<CollapsibleContent label="提示1">
+看作关于 $z$ 的二次方程，分析判别式。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+$n^2 = 0,1,4,9 \pmod{16}$。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示3">
+若 $(\frac{-4}{p}) = (\frac{-8}{p}) = 1$，则 $p \equiv 1 \pmod{8}$。
+</CollapsibleContent>
