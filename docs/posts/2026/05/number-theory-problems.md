@@ -155,3 +155,23 @@ $n^2 = 0,1,4,9 \pmod{16}$。
 <CollapsibleContent label="答案">
 $(a, b) = (1, 1)$。
 </CollapsibleContent>
+
+15. 求所有的正整数 $n$，使得 $2^n + n \mid 8^n + n$。
+
+<CollapsibleContent label="提示">
+$x + y \mid x^3 + y^3$
+</CollapsibleContent>
+
+16. 求所有的正整数 $n$，使得 $3^n + n^2 + 3$ 是完全平方数。
+
+<CollapsibleContent label="提示1">
+首先分析 $n$ 的奇偶性。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+设 $n = 2m$，则 $3^n = (3^m)^2$。当 $m$ 较大时，$3^n + n^2 + 3$ 必然夹在两个完全平方数之间。
+</CollapsibleContent>
+
+<CollapsibleContent label="答案">
+$n = 2, 4$。
+</CollapsibleContent>
