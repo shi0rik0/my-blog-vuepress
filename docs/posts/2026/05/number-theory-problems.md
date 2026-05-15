@@ -162,6 +162,10 @@ $(a, b) = (1, 1)$。
 $x + y \mid x^3 + y^3$
 </CollapsibleContent>
 
+<CollapsibleContent label="答案">
+$n = 1, 2, 4, 6$。
+</CollapsibleContent>
+
 16. 求所有的正整数 $n$，使得 $3^n + n^2 + 3$ 是完全平方数。
 
 <CollapsibleContent label="提示1">
@@ -174,4 +178,24 @@ $x + y \mid x^3 + y^3$
 
 <CollapsibleContent label="答案">
 $n = 2, 4$。
+</CollapsibleContent>
+
+17. 求所有的正整数 $m, n$，使得 $mn \mid 3^m + 1$，且 $mn \mid 3^n + 1$。
+
+<CollapsibleContent label="提示">
+这类问题的经典套路是设 $p$ 是 $mn$ 的最小素因子（进一步地，不妨设 $p \mid m$），然后利用阶的性质来分析。
+</CollapsibleContent>
+
+<CollapsibleContent label="答案">
+$(m, n) = (1, 1), (1, 2), (2, 1)$。
+</CollapsibleContent>
+
+18. 求所有的正整数组 $(a, b, c)$，使得 $a! + b! = c!$。
+
+<CollapsibleContent label="提示">
+不妨设 $a \le b$，然后分析大小即可。
+</CollapsibleContent>
+
+<CollapsibleContent label="答案">
+$(a, b, c) = (1, 1, 2)$。
 </CollapsibleContent>
