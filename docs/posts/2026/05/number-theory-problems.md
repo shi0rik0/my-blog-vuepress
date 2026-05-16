@@ -215,3 +215,7 @@ $(a, b, c) = (1, 1, 2)$。
 </CollapsibleContent>
 
 20. 设 $n$ 是正整数，证明：$[\sqrt{n} + \sqrt{n+1}] = [\sqrt{4n + 1}] = [\sqrt{4n + 2}] = [\sqrt{4n + 3}]$。
+
+<CollapsibleContent label="提示">
+$\sqrt{4n+1} < \sqrt{n} + \sqrt{n+1} < \sqrt{4n+3}$
+</CollapsibleContent>
