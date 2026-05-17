@@ -6,6 +6,16 @@ tag:
 
 # 初等数论问题集
 
+## 引理
+
+1. $n$ 是大于 $1$ 的整数。证明：$n \mid (n-1)!$ 当且仅当 $n$ 是大于 $4$ 的合数。
+
+<CollapsibleContent label="提示">
+左边到右边是比较简单的。右边到左边，设 $n = ab$，然后按照 $a < b$ 和 $a = b$ 两种情况分析。
+</CollapsibleContent>
+
+## 题目
+
 1. $\sigma(n)$ 表示正整数 $n$ 的正约数之和。证明：$\sigma(n)$ 是奇数当且仅当 $n$ 是完全平方数或 $2n$ 是完全平方数。
 
 <CollapsibleContent label="提示">
@@ -218,4 +228,14 @@ $(a, b, c) = (1, 1, 2)$。
 
 <CollapsibleContent label="提示">
 $\sqrt{4n+1} < \sqrt{n} + \sqrt{n+1} < \sqrt{4n+3}$
+</CollapsibleContent>
+
+21. 设 $a, b, c$ 是整数。证明：$a^2bc + 2$，$ab^2c + 2$，$abc^2 + 2$ 不可能都是完全平方数。
+
+<CollapsibleContent label="提示1">
+模 $4$ 分析即可解决，但是可以想想怎么分类会比较简单。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+可以先分析 $a, b, c$ 中至少有一个是偶数的情况，然后分析 $a, b, c$ 都是奇数的情况。
 </CollapsibleContent>
