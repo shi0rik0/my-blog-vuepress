@@ -239,3 +239,17 @@ $\sqrt{4n+1} < \sqrt{n} + \sqrt{n+1} < \sqrt{4n+3}$
 <CollapsibleContent label="提示2">
 可以先分析 $a, b, c$ 中至少有一个是偶数的情况，然后分析 $a, b, c$ 都是奇数的情况。
 </CollapsibleContent>
+
+22. 求方程 $x^3 = 9y^3 - 1$ 的正整数解。
+
+<CollapsibleContent label="提示1">
+$(x+1)(x^2-x+1) = 9y^3$，然后对 $x$ 模 $3$ 分析。
+</CollapsibleContent>
+
+<CollapsibleContent label="提示2">
+应用恒等式：$(x^3)^3 - (x^3 - 1)^3 = 3x^6 - 3x^3 + 1$。
+</CollapsibleContent>
+
+<CollapsibleContent label="答案">
+$(x, y) = (2, 1)$。
+</CollapsibleContent>
